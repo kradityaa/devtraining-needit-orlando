@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
     <sys_data_source action="INSERT_OR_UPDATE">
+        <batch_size>1000</batch_size>
         <category/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
@@ -7,6 +8,8 @@
         <csv_delimiter/>
         <data_in_single_column>false</data_in_single_column>
         <data_loader/>
+        <data_stream_action/>
+        <data_stream_action_inputs/>
         <database_name/>
         <database_port/>
         <discard_arrays>false</discard_arrays>
@@ -22,6 +25,7 @@
         <jdbc_password/>
         <jdbc_server/>
         <jdbc_user_name/>
+        <jdbcprobe_result_set_rows/>
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
@@ -63,9 +67,11 @@
         <sys_updated_on>2017-03-29 19:59:33</sys_updated_on>
         <table_name/>
         <type>File</type>
+        <use_batch_import>false</use_batch_import>
         <use_integrated_authentication>false</use_integrated_authentication>
         <use_last_run_datetime>false</use_last_run_datetime>
         <xpath_root_node/>
         <zipped>false</zipped>
     </sys_data_source>
+    <sys_variable_value action="delete_multiple" query="document_key=03c1b4794f313200cb281b818110c701"/>
 </record_update>
